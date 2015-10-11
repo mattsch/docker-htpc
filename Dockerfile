@@ -22,8 +22,8 @@ RUN groupadd -g $LGID htpc && \
     useradd -c 'HTPC User' -s /bin/bash -m -d /opt/htpc -g $LGID -u $LUID htpc
     
 # Grab the installer, do the thing
-RUN git clone -q https://github.com/Hellowlol/HTPC-Manager.git /opt/htpc/app && \
-    chown -R htpc:htpc /opt/htpc/app
+RUN git clone -q https://github.com/Hellowlol/HTPC-Manager.git /opt/htpc && \
+    chown -R htpc:htpc /opt/htpc
 
 RUN cd /opt/htpc/app && pip install -r requirements.txt
 
