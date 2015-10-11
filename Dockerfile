@@ -8,10 +8,8 @@ RUN dnf install -yq gcc \
                     python-devel \
                     python-pip \
                     procps-ng \
-                    libjpeg-turbo-devel \
-                    libpng-devel \
+                    python-pillow \
                     zlib-devel \
-                    libwebp-devel \
                     libffi-devel \
                     freetype-devel && \
     dnf clean all
