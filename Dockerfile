@@ -2,7 +2,8 @@ FROM mattsch/fedora-rpmfusion:latest
 MAINTAINER Matthew Schick <matthew.schick@gmail.com>
 
 # Install required packages
-RUN dnf install -yq git \
+RUN dnf install -yq gcc \
+                    git \
                     python-pip \
                     procps-ng \
                     libjpeg-turbo-devel \
