@@ -4,6 +4,7 @@ MAINTAINER Matthew Schick <matthew.schick@gmail.com>
 # Install required packages
 RUN dnf install -yq gcc \
                     git \
+                    openssl-devel \
                     python-devel \
                     python-pip \
                     procps-ng \
