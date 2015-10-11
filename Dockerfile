@@ -4,6 +4,7 @@ MAINTAINER Matthew Schick <matthew.schick@gmail.com>
 # Install required packages
 RUN dnf install -yq gcc \
                     git \
+                    python-devel \
                     python-pip \
                     procps-ng \
                     libjpeg-turbo-devel \

@@ -12,4 +12,4 @@ fi
 # Set permissions
 chown -R htpc:htpc /config/ /opt/htpc
 
-exec runuser -l htpc -c '/opt/app/Htpc.py --daemon'
+exec runuser -l htpc -c '/opt/app/Htpc.py --daemon --datadir=/config/htpc'
