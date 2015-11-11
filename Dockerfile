@@ -10,6 +10,7 @@ RUN dnf install -yq gcc \
                     python-devel \
                     python-pip \
                     procps-ng \
+                    redhat-rpm-config \
                     smartmontools \
                     zlib-devel && \
     dnf clean all
