@@ -9,8 +9,8 @@ RUN dnf upgrade -yq && \
 RUN dnf install -yq gcc \
                     git \
                     pyOpenSSL \
-                    python-paramiko \
-                    python-pillow \
+                    python2-paramiko \
+                    python2-pillow \
                     python-devel \
                     python-pip \
                     procps-ng \
